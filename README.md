@@ -82,11 +82,11 @@ def get_neighbors(node_id: int):
 
 ![](fastapi.png)
 
-（3）tidb配置
+（4）tidb配置
 
 ![](tidb.png)
 
-（4）flutter应用设计
+（5）flutter应用设计
 
 首先有一个登录注册的页面需要登录注册才能够使用，登陆后，里面有一个主页面，有五个功能：论文搜索、论文分类、聚类显示、论文邻域聚合、论文/作者相似度查询，这些功能都是基于调用上面的FastAPI和使用tidb数据库完成的。
 
@@ -100,6 +100,6 @@ def get_neighbors(node_id: int):
 
 
 
-（7）数据集：使用acm数据集
+（6）数据集：使用acm数据集
 
 ![](acm.png)
